@@ -1,3 +1,10 @@
+  /* 
+    -- THIS IS HOW TO USE THE VARIABLES ABOVE --
+  body {
+    background-color: var(--blue);
+    color: var(--white-text)
+  } */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,11 +19,104 @@
   }
 
 
-  
-  /* 
-    -- THIS IS HOW TO USE THE VARIABLES ABOVE --
-  body {
-    background-color: var(--blue);
-    color: var(--white-text)
-  } */
+  .header-slide {
+    height: 70dvh;
+  }
 
+  .m-outter-container {
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    gap: 2em;
+  }
+
+  .m-h2 {
+    font-size: 2em;
+  }
+
+  .let-us {
+    font-size: 1.25em;
+  }
+
+  .description {
+    color: rgb(126, 126, 126);
+    padding: 10px 0 20px 0;
+  }
+
+  .sign-up-button {
+    padding: 10px 15px;
+    border: 1px solid var(--blue);
+    margin-right: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    background-color: var(--blue);
+    font-weight: bold;
+    box-shadow: 5px 5px 5px -3px rgba(0,0,0,0.54);
+
+  }
+
+  .sign-up-button:hover {
+    background: var(--white-text);
+    color: var(--blue);
+    transition: 700ms;
+    transform: translateX(5px);
+  }
+
+  .chat-with-us {
+    padding: 10px 15px;
+    background-color: var(--white-text);
+    border: 1px solid var(--blue);
+    border-radius: 7px;
+    color: var(--blue);
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px -3px rgba(0,0,0,0.54);
+  }
+
+  .chat-with-us:hover {
+    color: var(--white-text);
+    background-color: var(--blue);
+    transition: 700ms;
+    transform: translateX(5px);
+
+  }
+
+  .chat-icon {
+    padding-right: 10px;
+  }
+
+  .sign-in-container {
+    display: flex;
+    gap: .5em;
+    padding: 20px 0;
+    color: rgb(125, 125, 125);
+  }
+
+  .sign-in-link {
+    text-decoration: none;
+    color: rgb(125, 125, 125);
+  }
+
+  .sign-in-link:hover {
+    text-decoration: underline;
+  }
+
+  .trial {
+    display: flex;
+    gap: 2em;
+  }
+
+  ul {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+  }
+
+  li::before {
+    content: '\2022';
+    color: var(--blue); 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em;
+  }
