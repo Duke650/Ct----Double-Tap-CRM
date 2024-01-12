@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+
+:root {
+    --blue: #0022ff;
+    --background: rgba(230, 229, 229, 0.314);
+  }
+
+
+  
+  /* 
+    -- THIS IS HOW TO USE THE VARIABLES ABOVE --
+  body {
+    color: var(--blue);
+    background-color: var(--background);
+  } */
