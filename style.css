@@ -7,7 +7,6 @@
 
 :root {
     --blue: #0022ff;
-    --background: rgba(230, 229, 229, 0.314);
     --white-text: #ffffff;
     --black-text: #000000;
   }
@@ -17,6 +16,7 @@
   /* 
     -- THIS IS HOW TO USE THE VARIABLES ABOVE --
   body {
-    color: var(--blue);
-    background-color: var(--background);
+    background-color: var(--blue);
+    color: var(--white-text)
   } */
+
