@@ -155,3 +155,63 @@
 #img-discription > p {
     text-align: center;
 }
+
+/* Dyllorian Thomas */
+hr {
+  width:50%;
+  margin:0 auto;
+  }
+
+  .hiw-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--black-text);
+  }
+
+  .hiw-description {
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+  }
+
+  .hiw-image-container {
+    display: flex;
+    border: solid black 1px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 20px 20px 100px 20px;
+    float: left;
+    height: 500px
+  }
+
+  .hiw-image {
+    display: flex;
+  }
+
+  .hiw-image > img {
+    max-width: 100%;
+    height: auto;
+    padding: 125px 0px 125px 50px;
+  }
+
+  .hiw-image-info {
+    background-color: var(--blue);
+    color: var(--white-text);
+    text-align: center;
+  }
+
+  .hiw-description > p {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .hiw-image-info > h3 {
+    padding-top: 100px;
+  }
+
+  .hiw-image-info > p {
+    padding: 100px;
+  }
+  /* Dyllorian Thomas */
